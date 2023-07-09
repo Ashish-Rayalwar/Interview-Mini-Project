@@ -6,7 +6,7 @@ const router = require("express").Router();
 router.post("/save", verify, createProduct);
 router.get("/list", verify, getProducts);
 
-route.all("/*", (req, res) => {
+router.all("/*", (req, res) => {
   console.log("Plz enter valid route");
   res.status(400).send({ status: false, message: "invalid route" });
 });
