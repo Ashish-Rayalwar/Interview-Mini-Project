@@ -1,5 +1,7 @@
 # Interview Mini Project
 
+## AWS EC2 - > http://13.211.203.58:9000/
+
 ### Key points
 
 - 1. Prepare product response values for at least 2 categories having up to 5 products each.
